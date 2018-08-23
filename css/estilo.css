@@ -1,0 +1,15 @@
+#demo {
+	text-align: center;
+	font-family: arial;
+}
+#botao_imagem {
+	position: relative;
+	left: 30%;
+	height: 100px;
+	width: 150px;
+}
+#botao_imagem2 {
+	position: relative;
+	left: 50%;
+	height: 100px;
+	width: 150px;
