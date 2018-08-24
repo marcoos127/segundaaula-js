@@ -11,5 +11,6 @@ function naoocultar() {
 	document.getElementById("demo").style.display="block"
 }
 function calculo() {
-	document.getElementById("demo").innerHTML= parseFloat (document.getElementById("num1").value) + parseFloat (document.getElementById("num2").value);
-}
+	var total = document.getElementById("demo").innerHTML= parseFloat (document.getElementById("num1").value) + parseFloat (document.getElementById("num2").value);
+	window.alert(total);
+	}
