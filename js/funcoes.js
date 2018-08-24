@@ -11,5 +11,5 @@ function naoocultar() {
 	document.getElementById("demo").style.display="block"
 }
 function calculo() {
-	document.getElementById("demo").innerHTML= 10 + 5
+	document.getElementById("demo").innerHTML= parseFloat (document.getElementById("num1").value) + parseFloat (document.getElementById("num2").value);
 }
